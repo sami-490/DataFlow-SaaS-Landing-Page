@@ -1,24 +1,34 @@
-﻿node_modules/
-dist/
-build/
-/.env
-.env.local
-.DS_Store
-.vscode/
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
-pnpm-lock.yaml
-/.idea/
-coverage/
-/.parcel-cache/
-__pycache__/
-*.lognode_modules
-.DS_Store
-.env
-.env.local
+pnpm-debug.log*
+
+# Dependencies
+node_modules
 dist
 build
-.vscode
 
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+*.parcel-cache
+
+# Testing
+coverage/
